@@ -1,0 +1,86 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Get the best value from your summer holiday in Dubai and across the UAE with My Emirates Pass. You can enjoy exclusive offers at over 500 
+locations simply by showing your Emirates boarding pass. Dine for less in some of the city’s best restaurants, get discounts at big‑name stores
+and the best attractions, and relax at tranquil spas. You can do it all for less with My Emirates Pass this summer between 1 May to 
+30 September 2022.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Welcome to our home city Dubai. The best shopping deals, hundreds of dining options, theme parks and world‑class attractions. These are just 
+some of the reasons to choose Dubai as your next holiday destination. And when you fly with us, you can enjoy complimentary hotel stays and 
+additional baggage allowance. 
+Enjoy a two‑nights' stay at JW Marriot Marquis when you book an Emirates return flight to Dubai in First Class or Business Class or one night at 
+Hilton Garden Inn Al Muraqabat when you book in Economy Class. Pack more with complimentary 10kgs excess baggage in both directions when
+you book your flight to Dubai.
+Book by 30 May 2022 and travel from 20 May until 30 September 2022. To avail your complimentary hotel stay, an e‑mail must be sent to 
+EmiratesOffer@emirates.com with your confirmed PNR reference, arrival date in Dubai, the names of all the passengers in your booking, phone 
+number and e‑mail address. And we'll email you your hotel confirmation.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Broadening your horizons in new countries is an experience not to be missed. And to make it even better, we’re giving you an exclusive discount
+and extra benefits while on your way. Whether you’re travelling for school or headed for a getaway at any of our over 250 destinations, book your
+flight by 30 September 2022 using the promo code STUDENT to get discounts of up to 10% on Economy Class and Business Class fares. You also 
+get 10kg more or 1 extra piece on top of our generous baggage allowances and flexible options to change your flight. Conditions apply. Be sure 
+to present a valid studentID or school acceptance letter at check‑in and get started on achieving your dreams. If you're not already an Emirates 
+Skywards member, join now to start earning Skywards Miles on your travels to spend on flights, upgrades and other exciting rewards with our 
+partners.</value>
+  </data>
+</root>

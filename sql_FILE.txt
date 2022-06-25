@@ -1,0 +1,76 @@
+CREATE TABLE AEROPLANES (
+P_ID INTEGER GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) NOT NULL PRIMARY KEY,
+P_Name varchar(20),
+Pasenger_Capicity varchar(10),
+Fuel_Capicity varchar(10),
+Manufacture_Date varchar(20)
+);
+
+CREATE TABLE AIRPORT
+(
+A_ID varchar(5) not null,
+A_Name varchar(30) not null,
+A_City varchar(15) not null ,
+A_Country varchar(15) not null,
+A_Capicity number,
+Terminal number, 
+CONSTRAINT A_ID_pk PRIMARY KEY (A_ID)
+);
+
+INSERT INTO AIRPORT
+VALUES 
+(3,' Madrid Barajas','Barajas','Spain',14000,1);
+
+SELECT * FROM AEROPLANES
+
+Create Table TICKET
+(
+Ticket_NO INTEGER GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) NOT NULL PRIMARY KEY,
+duration varchar(20),
+Arrival varchar(20),    
+Flight_Type varchar(20),
+Departure varchar(20),
+class varchar(20),
+A_Time varchar(20),
+Dep_date varchar(20),
+D_Time varchar(20),
+CNIC varchar(25),
+quantity varchar(5)
+);
+
+Create Table Passenger
+(
+C_ID INTEGER GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) NOT NULL PRIMARY KEY,
+F_Name varchar(20),
+L_Name varchar(20),
+Phone varchar(15),
+Email varchar(20),
+Age varchar(5),
+CNIC varchar(25),
+gender varchar(6)
+);
+
+SELECT * FROM AIRPORT
+
+CREATE TABLE STAFF
+(
+ S_ID INTEGER GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) NOT NULL PRIMARY KEY,
+ A_ID varchar(5),
+ salary varchar(15),
+ address varchar(40),
+ CNIC varchar(20),
+ gender varchar(6),
+ F_Name varchar(20),
+ L_Name varchar(20),
+ Phone varchar(15),
+ Email varchar(20),
+ Age varchar(5),
+ positionn varchar(20),
+ scalee varchar(15),
+ joining_date varchar(15),
+ CONSTRAINT fk_AID
+FOREIGN KEY (A_ID)
+REFERENCES AIRPORT(A_ID)
+);
+
+SELECT * FROM STAFF
